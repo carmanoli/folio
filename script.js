@@ -1,3 +1,4 @@
+
 /*
  * TheaterJS, a typing effect mimicking human behavior.
  *
@@ -28,7 +29,14 @@ theater
   .addActor('carlos')
   .addScene('visitor:Hello!', 600)
   .addScene('carlos:What?', 400)
-  .addScene('visitor:Who are you.', 400)
-  .addScene('carlos:Nooo...', -3, '!!! ', 600, 'No! ', 600)
+  .addScene('visitor:Who are you?', 400)
+  .addScene('carlos:Hmmmm...', 600)
+  .addScene('carlos:I am Carlos. Carlos Oliveira.', 600)
+  .addScene('visitor:What are you doing here?', 400)
+  .addScene('carlos:Hmmm... I duno.', 600)
+  .addScene('carlos:I am supposed to build my portfolio here.', 600)
+  .addScene('carlos:Can you help me?', 600)
+  .addScene('visitor:No. Bye!', 400)
+  .addScene('carlos:Bye. I am so lonely!', 600)
 
   .addScene(theater.replay.bind(theater))
