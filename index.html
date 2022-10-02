@@ -1,35 +1,253 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
+
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/theaterjs/latest/theater.min.js"></script>
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
 
-  <link rel="stylesheet/less" type="text/css" href="style.less" />
-  <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>Portfolio - Carlos Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
 
 </head>
-<body>
-  
-  <main class="scene">
-    <div class="actor">
-      <span class="actor__prefix">-</span>
-      <span id="visitor" class="actor__content"></span>
+
+<body translate="no" >
+  <div class="resume">
+  <div class="base">
+    <div class="profile">
+      <div class="photo">
+        <img src="co.jpg" />
+        <!--<i class="fas fa-rocket"></i>-->
+      </div>
+      <div class="info">
+        <h1 class="name">Carlos Oliveira</h1>
+        <h2 class="job">Frontend Web Designer</h2>
+      </div>
     </div>
-  
-    <div class="actor">
-      <span class="actor__prefix">-</span>
-      <span id="carlos" class="actor__content"></span>
+    <div class="about">
+      
+      <h3>About Me</h3>At the moment I am in a process of a re-conversion. I am currently building skill in frontend and backend development with Javascript, Node.JS, Bootstrap, SQL, NoSQL.
+
+      
+      
     </div>
-  </main>
+    <div class="contact">
+      <h3>Contact Me</h3>
+      <div class="call"><a href="tel:+(351)937276318"><i class="fas fa-phone"></i><span>+(351)937276318</span></a></div>
+      <div class="address"><i class="fas fa-map-marker"></i><span>Lisboa.Sintra.Queluz</span></a></div>
+      <div class="email"><i class="fas fa-envelope"></i><span>cmo@outlook.pt</span></a></div>
+    </div>
+    <div class="follow">
+      <h3>Follow Me</h3>
+      <div class="box">
+        <a href="https://www.linkedin.com/in/carmanoli/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="func">
+    <div class="work">
+      <h3><i class="fa fa-briefcase"></i>Experience</h3>
+      <ul>
+        <li><span>Web Developer -<br>Vue.JS, DJANGO\Python </span><small>Digibéria</small><small>2022 Fev - 2022 Apr</small></li>
+        <li><span>System Analyst</span><small>Fujitsu Telecomunicacões</small><small>1991 Jan - 2017 Jun</small><br><br><br><br><br><br></li>
+      </ul>
+    </div>
+    <div class="edu">
+      <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+      <ul>
+        <li><span>WEB Frontend JAVASCRIPT</span><small>Upskill</small><small>Jan. 2016 - Apr. 2018</small></li>
+        <li><span>Técnico Especialista em Tecnologias e Programação de Sistemas de Informação</span><small>Citeforma</small><small>2021 Apr. - 2021 Dec.</small></li>
+        <li><span>Técnico de Informática Fundamental</span><small>Escola Profissional Gustave Eiffel</small><small>1997</small></li>
+      </ul>
+    </div>
+    <div class="skills-prog">
+      <h3><i class="fas fa-code"></i>Programming Skills</h3>
+      <ul>
+        <li data-percent="95"><span>HTML5</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="90"><span>CSS3 & SCSS</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="60"><span>JavaScript</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="50"><span>jQuery</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="40"><span>JSON</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="55"><span>PHP</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="40"><span>MySQL</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="skills-soft">
+      <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
+      <ul>
+        <li data-percent="90">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Illustrator</span><small></small>
+        </li>
+        <li data-percent="75">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Photoshop</span><small></small>
+        </li>
+        <li data-percent="85">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Tinkercad</span><small></small>
+        </li>
+        <li data-percent="65">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Autocad</span><small></small>
+        </li>
+      </ul>
+    </div>
+    <div class="interests">
+      <h3><i class="fas fa-star"></i>Interests</h3>
+      <div class="interests-items">
+        <div class="art"><i class="fas fa-palette"></i><span>Art</span></div>
+        <div class="art"><i class="fas fa-book"></i><span>Books</span></div>
+        <div class="movies"><i class="fas fa-film"></i><span>Movies</span></div>
+        <div class="music"><i class="fas fa-headphones"></i><span>Music</span></div>
+        <div class="games"><i class="fas fa-gamepad"></i><span>Games</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+      <script id="rendered-js" >
+(function () {
+  $(".skills-prog li").
+  find(".skills-bar").
+  each(function (i) {
+    $(this).
+    find(".bar").
+    delay(i * 150).
+    animate(
+    {
+      width:
+      $(this).
+      parents().
+      attr("data-percent") + "%" },
+
+    1000,
+    "linear",
+    function () {
+      return $(this).css({
+        "transition-duration": ".5s" });
+
+    });
+
+  });
+
+  $(".skills-soft li").
+  find("svg").
+  each(function (i) {
+    var c, cbar, circle, percent, r;
+    circle = $(this).children(".cbar");
+    r = circle.attr("r");
+    c = Math.PI * (r * 2);
+    percent = $(this).
+    parent().
+    data("percent");
+    cbar = (100 - percent) / 100 * c;
+    circle.css({
+      "stroke-dashoffset": c,
+      "stroke-dasharray": c });
+
+    circle.delay(i * 150).animate(
+    {
+      strokeDashoffset: cbar },
+
+    1000,
+    "linear",
+    function () {
+      return circle.css({
+        "transition-duration": ".3s" });
+
+    });
+
+    $(this).
+    siblings("small").
+    prop("Counter", 0).
+    delay(i * 150).
+    animate(
+    {
+      Counter: percent },
+
+    {
+      duration: 1000,
+      step: function (now) {
+        return $(this).text(Math.ceil(now) + "%");
+      } });
+
+
+  });
+}).call(this);
+
+
+//# sourceURL=coffeescript
+//# sourceURL=pen.js
+    </script>
+
   
-  <script src="script.js"></script>
 
 </body>
+
 </html>
+ 
